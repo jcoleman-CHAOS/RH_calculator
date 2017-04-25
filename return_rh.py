@@ -24,7 +24,7 @@ def give_rh(t, g):
     index_of_rh = 0
     try:
         for index, i in enumerate(temp_air):
-            if ta[index] > t:
+            if temp_air[index] > t:
                 index_of_rh = index-1
                 break
     except:
